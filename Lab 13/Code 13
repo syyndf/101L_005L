@@ -1,0 +1,39 @@
+Grades.py
+
+# problem 2
+def total(values):
+sum = 0
+for value in values:
+sum += value
+return sum
+
+# problem 3
+print(total([4, 2, 5]))
+import unittest
+import Grades
+
+class Grades_Test(unittest.TestCase):
+def test_total_returns_total_of_list(self):
+result = Grades.total([1, 10, 22])
+self.assertEqual(result, 33, "The total function should return 33")
+import unittest
+import Grades
+
+class Grades_Test(unittest.TestCase):
+def total_returns_total_of_list(self):
+result = Grades.total([1, 10, 22])
+self.assertEqual(result, 33, "The total function should return 33")
+
+9, 10, 11)
+
+import unittest
+import Grades
+
+class Grades_Test(unittest.TestCase):
+def total_returns_total_of_list(self):
+result = Grades.total([1, 10, 22])
+self.assertEqual(result, 33, "The total function should return 33"
+  
+def test_total_returns_0(self):
+result = Grades.total([])
+self.assertEqual(result, 0, "The total function should return 0"
